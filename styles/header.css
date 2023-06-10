@@ -1,0 +1,68 @@
+.header {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-item {
+  padding: 8px;
+  margin-right: 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.header-nav-item:hover {
+  background-color: #262626;
+}
+
+.header-nav-item:focus {
+  outline: 3px solid white;
+}
+
+.header-nav-item:last-child {
+  margin-right: 0;
+}
+
+.header-nav-link {
+  display: flex;
+}
+
+.header-nav-img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.search-item {
+  margin-left: auto;
+}
+
+.search-img {
+  display: block;
+  margin-top: 3px;
+  margin-right: 6px;
+  width: 14px;
+  height: 14px;
+}
+
+.dots {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.separator {
+  color: #545252;
+}
+
+.notion-logo {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}

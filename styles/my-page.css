@@ -1,0 +1,55 @@
+.my-page-title {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.my-page-title span {
+  text-decoration: underline;
+}
+
+.my-page-description {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.my-page-description:last-child {
+  margin-bottom: 0;
+}
+
+.my-page-description span {
+  text-decoration: underline;
+}
+
+.links-wrapper {
+  width: 700px;
+  margin: 0 auto 100px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.my-page-link {
+  display: inline-block;
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 5px 0;
+  color: #ffffff;
+  border: solid #4bb247;
+  border-width: 6px 20px;
+  border-radius: 4px;
+  background-color: #4bb247;
+  transition: border-color, background-color,  0.5s;
+}
+
+.my-page-link:last-child {
+  margin-right: 0;
+}
+
+.my-page-link:hover {
+  border-color: #3a7838;
+  background-color: #3a7838;
+}
+

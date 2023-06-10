@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/methed.png">
+  <title>Code Style</title>
+  <link rel="stylesheet " href="styles/index.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="index.html">
+            <img class="header-nav-img" src="img/methed-small.png" alt="Логотип Methed">
+          </a>
+        </li>
+        
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://quper.notion.site/Code-Style-HTML-6cabd2a939ad42f086410779e18a1066" target="_blank">Code Style HTML</a>
+        </li>
+        
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://quper.notion.site/Code-Style-CSS-5021e31124f8489a9bce3a7097e99858" target="_blank">Code Style CSS</a>
+        </li>
+        
+        <li class="header-nav-item search-item">
+          <a class="header-nav-link search-link" href="#">
+            <svg class="search-img" viewBox="0 0 17 17">
+              <path d="M6.78027 13.6729C8.24805 13.6729 9.60156 13.1982 10.709 12.4072L14.875 16.5732C15.0684 16.7666 15.3232 16.8633 15.5957 16.8633C16.167 16.8633 16.5713 16.4238 16.5713 15.8613C16.5713 15.5977 16.4834 15.3516 16.29 15.1582L12.1504 11.0098C13.0205 9.86719 13.5391 8.45215 13.5391 6.91406C13.5391 3.19629 10.498 0.155273 6.78027 0.155273C3.0625 0.155273 0.0214844 3.19629 0.0214844 6.91406C0.0214844 10.6318 3.0625 13.6729 6.78027 13.6729ZM6.78027 12.2139C3.87988 12.2139 1.48047 9.81445 1.48047 6.91406C1.48047 4.01367 3.87988 1.61426 6.78027 1.61426C9.68066 1.61426 12.0801 4.01367 12.0801 6.91406C12.0801 9.81445 9.68066 12.2139 6.78027 12.2139Z" fill="#ffffff">
+              
+              </path>
+            </svg>
+            Search
+          </a>
+        </li>
+        
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#">Duplicate</a>
+        </li>
+        
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#">
+            <svg viewBox="0 0 13 3" class="dots">
+              <g>
+                <path d="M3,1.5A1.5,1.5,0,1,1,1.5,0,1.5,1.5,0,0,1,3,1.5Z" fill="rgba(255, 255, 255, 0.81)"></path>
+                <path d="M8,1.5A1.5,1.5,0,1,1,6.5,0,1.5,1.5,0,0,1,8,1.5Z" fill="rgba(255, 255, 255, 0.81)"></path>
+                <path d="M13,1.5A1.5,1.5,0,1,1,11.5,0,1.5,1.5,0,0,1,13,1.5Z" fill="rgba(255, 255, 255, 0.81)"></path>
+              </g>
+            </svg>
+          </a>
+        </li>
+        
+        <li class="header-nav-item separator">|</li>
+        
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://www.notion.so/signup?utm_source=public_page&utm_content=topbar_cta&tid=1bbb343b35b44fb3b34e87caa3e5f342&utm_campaign=6cabd2a939ad42f086410779e18a1066" target="_blank">
+            <svg viewBox="0 0 120 126" class="notion-logo">
+              <path d="M 20.6927 21.9315C 24.5836 25.0924 26.0432 24.8512 33.3492 24.3638L 102.228 20.2279C 103.689 20.2279 102.474 18.7705 101.987 18.5283L 90.5477 10.2586C 88.3558 8.55699 85.4356 6.60818 79.8387 7.09563L 13.1433 11.9602C 10.711 12.2014 10.2251 13.4175 11.1939 14.3924L 20.6927 21.9315ZM 24.8281 37.9835L 24.8281 110.456C 24.8281 114.351 26.7745 115.808 31.1553 115.567L 106.853 111.187C 111.236 110.946 111.724 108.267 111.724 105.103L 111.724 33.1169C 111.724 29.958 110.509 28.2544 107.826 28.4976L 28.721 33.1169C 25.8018 33.3622 24.8281 34.8225 24.8281 37.9835ZM 99.5567 41.8711C 100.042 44.0622 99.5567 46.2512 97.3618 46.4974L 93.7143 47.2241L 93.7143 100.728C 90.5477 102.43 87.6275 103.403 85.1942 103.403C 81.2983 103.403 80.3226 102.186 77.4044 98.54L 53.5471 61.087L 53.5471 97.3239L 61.0964 99.0275C 61.0964 99.0275 61.0964 103.403 55.0057 103.403L 38.2148 104.377C 37.727 103.403 38.2148 100.973 39.9179 100.486L 44.2996 99.2717L 44.2996 51.36L 38.2158 50.8725C 37.728 48.6815 38.9431 45.5225 42.3532 45.2773L 60.3661 44.0631L 85.1942 82.0036L 85.1942 48.4402L 78.864 47.7136C 78.3781 45.0351 80.3226 43.0902 82.7569 42.849L 99.5567 41.8711ZM 7.5434 5.39404L 76.9175 0.285276C 85.4366 -0.445402 87.6285 0.0440428 92.983 3.93368L 115.128 19.4982C 118.782 22.1747 120 22.9034 120 25.8211L 120 111.187C 120 116.537 118.051 119.701 111.237 120.185L 30.6734 125.05C 25.5584 125.294 23.124 124.565 20.4453 121.158L 4.13735 99.9994C 1.21516 96.1048 0 93.191 0 89.7819L 0 13.903C 0 9.5279 1.94945 5.8785 7.5434 5.39404Z" fill="#fff"></path>
+            </svg>
+            Try Notion
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="main-page">
+    <h1 class="visually-hidden">Страница со ссылками на сайт Code Style - METHED</h1>
+    <section class="banner-methed-html">
+      <h2 class="visually-hidden">Баннер сайта Code Style - METHED</h2>
+    </section>
+    
+    <section class="code-style container">
+      <h2 class="code-style-title">
+        Code Style HTML
+      </h2>
+      
+      <section class="code-style-links">
+        <h3 class="visually-hidden">Блок со ссылками</h3>
+        <img class="notion-emoji" src="img/lamp.png" alt="💡" width="160" height="160">
+        <ul class="code-style-list">
+          <li class="code-style-item">
+            <a class="code-style-link" href="https://quper.notion.site/Code-Style-HTML-6cabd2a939ad42f086410779e18a1066" target="_blank">
+              <img class="methed-logo" src="img/methed-small.png" alt="">
+              <svg class="link-indicator" viewBox="0 0 13 13" style="width:0.7em;height:0.7em;display:block;">
+                <path d="M6.30826 4.43292L1.76184 8.98454C1.76176 8.98462 1.76169 8.9847 1.76161 8.98477C1.76158 8.9848 1.76156 8.98482 1.76154 8.98484C1.46068 9.28584 1.25 9.6914 1.25 10.1565C1.25 10.6117 1.45865 11.0119 1.73417 11.2886C2.01014 11.5658 2.41107 11.7773 2.87078 11.7773C3.34169 11.7773 3.73758 11.5617 4.03477 11.2733L4.03482 11.2734L4.04244 11.2657L8.58864 6.72474V8.667C8.58864 9.51956 9.22729 10.2935 10.1521 10.2935C11.0528 10.2935 11.75 9.54534 11.75 8.66127V2.92671C11.75 2.48722 11.5981 2.06381 11.2838 1.74808C10.9689 1.43182 10.5446 1.27728 10.1006 1.27728H4.36028C3.46161 1.27728 2.72804 1.97749 2.72804 2.86942C2.72804 3.79734 3.51104 4.43292 4.35455 4.43292H6.30826Z" fill="#3E3C38" stroke="white" stroke-width="1.5">
+                </path>
+              </svg>
+              <span class="code-style-link-underline">Code Style HTML</span>
+            </a>
+          </li>
+          <li class="code-style-item">
+            <a class="code-style-link" href="https://quper.notion.site/Code-Style-CSS-5021e31124f8489a9bce3a7097e99858" target="_blank">
+              <img class="methed-logo" src="img/methed-small.png" alt="">
+              <svg class="link-indicator" viewBox="0 0 13 13" style="width:0.7em;height:0.7em;display:block;">
+                <path d="M6.30826 4.43292L1.76184 8.98454C1.76176 8.98462 1.76169 8.9847 1.76161 8.98477C1.76158 8.9848 1.76156 8.98482 1.76154 8.98484C1.46068 9.28584 1.25 9.6914 1.25 10.1565C1.25 10.6117 1.45865 11.0119 1.73417 11.2886C2.01014 11.5658 2.41107 11.7773 2.87078 11.7773C3.34169 11.7773 3.73758 11.5617 4.03477 11.2733L4.03482 11.2734L4.04244 11.2657L8.58864 6.72474V8.667C8.58864 9.51956 9.22729 10.2935 10.1521 10.2935C11.0528 10.2935 11.75 9.54534 11.75 8.66127V2.92671C11.75 2.48722 11.5981 2.06381 11.2838 1.74808C10.9689 1.43182 10.5446 1.27728 10.1006 1.27728H4.36028C3.46161 1.27728 2.72804 1.97749 2.72804 2.86942C2.72804 3.79734 3.51104 4.43292 4.35455 4.43292H6.30826Z" fill="#3E3C38" stroke="white" stroke-width="1.5">
+                </path>
+              </svg>
+              <span class="code-style-link-underline">Code Style CSS</span>
+            </a>
+          </li>
+          <li class="code-style-item">
+            <a class="code-style-link" href="https://quper.notion.site/Code-Style-Javascript-b46b53a200ba41cb81b4bfcb9ba283ca" target="_blank">
+              <img class="methed-logo" src="img/methed-small.png" alt="">
+              <svg class="link-indicator" viewBox="0 0 13 13" style="width:0.7em;height:0.7em;display:block;">
+                <path d="M6.30826 4.43292L1.76184 8.98454C1.76176 8.98462 1.76169 8.9847 1.76161 8.98477C1.76158 8.9848 1.76156 8.98482 1.76154 8.98484C1.46068 9.28584 1.25 9.6914 1.25 10.1565C1.25 10.6117 1.45865 11.0119 1.73417 11.2886C2.01014 11.5658 2.41107 11.7773 2.87078 11.7773C3.34169 11.7773 3.73758 11.5617 4.03477 11.2733L4.03482 11.2734L4.04244 11.2657L8.58864 6.72474V8.667C8.58864 9.51956 9.22729 10.2935 10.1521 10.2935C11.0528 10.2935 11.75 9.54534 11.75 8.66127V2.92671C11.75 2.48722 11.5981 2.06381 11.2838 1.74808C10.9689 1.43182 10.5446 1.27728 10.1006 1.27728H4.36028C3.46161 1.27728 2.72804 1.97749 2.72804 2.86942C2.72804 3.79734 3.51104 4.43292 4.35455 4.43292H6.30826Z" fill="#3E3C38" stroke="white" stroke-width="1.5">
+                </path>
+              </svg>
+              <span class="code-style-link-underline">Code Style Javascript для Верстальщика</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="code-style-content">
+        <h3 class="visually-hidden">Code Style для HTML</h3>
+        <ul class="code-style-content-list">
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">!doctype</h3>
+            <p class="content-item-description">
+              В начале страницы обязательно должен быть указан актуальный &lt;!DOCTYPE html&gt;, чтобы работать в режиме стандартов и последовательного рендеринга элементов в каждом доступном браузере.
+            </p>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">Атрибут локализации</h3>
+            <p class="content-item-description">
+              Для элемента &lt;html&gt; в атрибуте lang должен указываться соответствующий язык документа. Это нужно для правильной работы синтеза речи, для переводчиков и поисковиков.
+            </p>
+            <div class="content-item-clip">
+              <h4 class="content-item-clip-title">Вырезка из спецификации HTML5</h4>
+              <p class="content-item-clip-text">
+                Разработчикам рекомендуется указывать атрибут языка в начале html файла, тем самым указывая на принадлежность языка документа. Это способствует инструментам генерации голоса определить то, какое произношение использовать, а инструментам перевода определить каким правилам придерживаться и так далее.
+              </p>
+            </div>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">Кодировка символов документа</h3>
+            <p class="content-item-description">
+              Кодировка символов на странице всегда должна быть явно указана, чтобы обеспечить корректное отображение текста.
+            </p>
+            <p class="content-item-description">
+              Для Кириллицы нужно использовать UTF-8 кодировку, убедитесь что ваш документ так же имеет кодировку UTF-8
+            </p>
+            <div class="content-item-image-block">
+              <img class="content-item-image small-image" src="img/code-style-html-1.png" alt="Пример кода">
+            </div>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">Базовый синтаксис</h3>
+            <p class="content-item-description">
+              Теги и их атрибуты пишутся строчными буквами.
+            </p>
+            <p class="content-item-description">
+              Для значений атрибутов всегда используются двойные кавычки.
+            </p>
+            <p class="content-item-description">
+              Для отступов у вложенных элементов используется отступ в 2 пробела (или табуляция размером 2 пробела).
+            </p>
+            <div class="content-item-image-block">
+              <img class="content-item-image" src="img/code-style-html-2.png" alt="Пример кода">
+            </div>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">Закрывающие теги</h3>
+            <p class="content-item-description">
+              Закрывающий слеш у одиночных тегов (&lt;img&gt;, &lt;br&gt; и другие) не ставится.
+            </p>
+            <p class="content-item-description">
+              В остальных случаях , как &lt;body&gt;&lt;/body&gt;, &lt;p&gt;&lt;/p&gt; или &lt;li>&lt;/li&gt;, обязателен закрывающий тег.
+            </p>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">Подключение стилей</h3>
+            <p class="content-item-description">
+              Файл стилей подключается с помощью тега &lt;link&gt; внутри тега &lt;head&gt;.
+            </p>
+            <p class="content-item-description">
+              Обязательный атрибут rel - со значением stylesheet, иначе браузер не поймет что вы подключили.
+            </p>
+            <p class="content-item-description">
+              Атрибут type="text/css” писать не нужно в современной версии HTML
+            </p>
+            <div class="content-item-image-block">
+              <img class="content-item-image medium-image" src="img/code-style-html-3.png" alt="Пример кода">
+            </div>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">Атрибуты</h3>
+            <p class="content-item-description">
+              Атрибут класса у HTML-элементов пишется первым.
+            </p>
+            <p class="content-item-description">
+              Так проще распознать его, остальные атрибуты можно указывать в любом порядке, но желательно чтобы их порядок от элемента к элементу сохранялся.
+            </p>
+            <p class="content-item-description">
+              Для логических атрибутов, таких как checked, disabled, required и тд, значение не указывается
+            </p>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title"><span>ALT</span> - атрибут</h3>
+            <p class="content-item-description">
+              Обязательно нужно указывать атрибут alt у тега img, чтобы было чем его "заменить" если вдруг изображение не загрузилось
+            </p>
+            <p class="content-item-description">
+              Так же значение alt атрибута очень важно, для людей использующих вспомогательные технологии, например экранные читалки, они не видят интерфейс, а "читают" сайты с помощью экранного диктора. Программа зачитывает для них alt атрибут чтобы было понятно что на изображении.
+            </p>
+          </li>
+          <li class="code-style-content-item">
+            <h3 class="content-item-title">Валидность <span>HTML</span></h3>
+            <p class="content-item-description">
+              Документ должен проходить проверку на валидность HTML.
+            </p>
+            <p class="content-item-description">
+              Для проверки используется валидатор w3c
+            </p>
+            <p class="content-item-description">
+              <a class="link-validator" href="https://validator.w3.org/#validate_by_input">
+                https://validator.w3.org/#validate_by_input
+              </a>
+            </p>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

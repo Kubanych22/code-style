@@ -1,0 +1,19 @@
+.banner-methed {
+  height: 170px;
+  background: url("../img/methed-white.png") 280px 97px/ 125px no-repeat,
+  url("https://images.unsplash.com/photo-1544982877-f0f4427dee24?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=3600") center center / cover no-repeat;
+  margin-bottom: 50px;
+}
+.banner-methed-html {
+  height: 170px;
+  background: url("../img/methed.png") 280px 97px/ 125px no-repeat,
+  url("https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600") center center / cover no-repeat;
+  margin-bottom: 50px;
+}
+.banner-methed-css {
+  height: 170px;
+  background: url("../img/methed-white.png") 280px 97px/ 125px no-repeat,
+  url("https://images.unsplash.com/photo-1610986603166-f78428624e76?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=3600") center center / cover no-repeat;
+  margin-bottom: 50px;
+}
+

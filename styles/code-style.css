@@ -1,0 +1,193 @@
+.code-style {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.code-style-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 3px 2px;
+}
+
+.code-style-links {
+  display: flex;
+  margin-bottom: 32px;
+  padding: 16px 16px 16px 12px;
+  background-color: #252525;
+  border-radius: 3px;
+}
+
+.style-links-css {
+  margin-bottom: 0;
+}
+
+.notion-emoji {
+  width: 17px;
+  height: 17px;
+  margin-right: 7px;
+}
+
+.code-style-item {
+  margin-bottom: 7px;
+  padding: 4px 3px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.code-style-item:hover {
+  background-color: #353535;
+}
+
+.code-style-link {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.methed-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.link-indicator {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.code-style-link-underline {
+  border-bottom:0.05em solid #373737;
+  font-weight: 500;
+}
+
+.code-style-content {
+  margin-top: 0;
+}
+
+.code-style-content-item {
+  margin-bottom: 48px;
+}
+
+.code-style-content-item:first-child .content-item-title {
+  text-transform: uppercase;
+}
+
+.code-style-content-item:last-child {
+  margin-bottom: 0;
+}
+
+.content-item-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 22px;
+  padding: 3px 2px;
+}
+
+.content-item-title > span {
+  text-transform: uppercase;
+}
+
+.content-item-description {
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.content-item-description:last-child {
+  margin-bottom: 0;
+}
+
+.content-item-clip-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 22px 0;
+  line-height: 1;
+}
+
+.content-item-clip-text {
+  padding-left: 15px;
+  line-height: 1.4;
+  border-left: 3px solid #d4d4d4;
+}
+
+.content-item-image {
+  margin: 32px auto;
+  border-radius: 1px;
+}
+
+.small-image {
+  width: 544px;
+}
+
+.medium-image {
+  width: 657px;
+}
+
+.link-validator {
+  color: #9c9c9c;
+  border-bottom: 1px solid #464646;
+}
+
+.code-style-description {
+  padding-top: 5px;
+  margin-bottom: 45px;
+  line-height: 1.4;
+}
+
+.code-style-description span {
+  font-weight: 600;
+}
+
+.code-style-description:last-child {
+  margin-bottom: 0;
+}
+
+.description-block-preamble {
+  margin-bottom: 17px;
+}
+
+.description-block-list {
+  margin-bottom: 37px;
+}
+
+
+.description-block-item {
+  margin-bottom: 17px;
+  line-height: 1.4;
+}
+
+.description-block-item:before {
+  content:  "—";
+  left: -5px;
+}
+
+.description-block-item:last-child {
+  margin-bottom: 0;
+}
+
+
+.code-style-description-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  margin-bottom: 60px;
+}
+
+.code-style-description-block-text {
+  margin-bottom: 37px;
+}
+
+.code-style-description-block-image {
+  width: 331px;
+}
+
+.description-block-image {
+  width: 428px;
+  margin: 0 auto 45px;
+}
+
+.code-style-description-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
